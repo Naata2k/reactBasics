@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A JavaScript project</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <h1>Ikä laskuri?:D</h1>
+  <input type="text" id="age" placeholder="kirjoita ikäsi tähän">
+  <input type="button" onclick="checkAge()" value="submit">
+  <p id="answer"></p>
+
+  <h1>Painoindeksilaskuri</h1>
+  <input type="text" class="paino" id="paino" placeholder="kirjoita painosi tähän kiloissa">
+  <input type="text" class="pituus" id="pituus" placeholder="kirjoita pituutesi tähän senttimetreissä">
+  <input type="button" onclick="checkPaino()" value="submit">
+  <p id="vastaus"></p>
+  <p id="1">Sairaalloinen alipaino	0 – 14,9</p>
+  <p id="2">Merkittävä alipaino	15 – 17,9</p>
+  <p id="3">Lievä alipaino	18 – 18,9</p>
+  <p id="4">Normaali paino	19 – 24,9</p>
+  <p id="5">Lievä ylipaino	25,0 – 29,9</p>
+  <p id="6">Merkittävä ylipaino	30,0 – 34,9</p>
+  <p id="7">Vaikea ylipaino	35,0 – 39,9</p>
+  <p id="8">Sairaalloinen ylipaino	40,0 tai enemmän</p>
+</body>
+
+<script src="main.js"></script>
+</html>
