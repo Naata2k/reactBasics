@@ -1,9 +1,13 @@
 import './App.css';
 //import Counter from './component/counter';
-import Timer from './component/timer';
+//import Timer from './component/timer';
+//import Prop from './component/prop';
+//import Dice from './component/dice';
 
-
+//<Timer/>
 //<Counter/>
+//<Prop name="Petteri" age={42} />
+//<Dice/>
 
 function App() {
   return (
@@ -12,7 +16,7 @@ function App() {
         <Timer/>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;

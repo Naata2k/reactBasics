@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 
 export default function Timer() {
-    const [count, setCount] = useState(0);
-      
-    useEffect(() => {
-        setTimeout(() => {
-            setCount((count) => count + 1);
-        }, 1000);
-    });
-      
+  const [count, setCount] = useState(0);
 
-    return (
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCount((prevCount) => prevCount + 1);
+    }, 1000);
+    
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
     <div>
-        <p>{count}</p>
+      <p>{count}</p>
     </div>
-    );
+  );
 }
-
