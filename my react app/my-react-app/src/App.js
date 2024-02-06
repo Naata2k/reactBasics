@@ -5,6 +5,7 @@ import './App.css';
 //import Dice from './component/dice';
 
 //<Timer/>
+//<Timer/>
 //<Counter/>
 //<Prop name="Petteri" age={42} />
 //<Dice/>
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Timer/>
+        <Prop name="Petteri" age={42} />
       </header>
     </div>
   )
