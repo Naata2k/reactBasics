@@ -5,7 +5,6 @@ import './App.css';
 //import Dice from './component/dice';
 
 //<Timer/>
-//<Timer/>
 //<Counter/>
 //<Prop name="Petteri" age={42} />
 //<Dice/>
